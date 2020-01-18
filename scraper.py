@@ -1,6 +1,9 @@
+import ast
 import csv
+import os
 import urllib
 from io import StringIO
+from time import sleep
 from urllib.request import urlopen
 
 from google_patent_scraper import scraper_class
@@ -51,12 +54,54 @@ def find_patent_by_id(patent_id):
 
 if __name__ == '__main__':
     # Example of use
-    l1 = {'name': 'Iwona', 'surname': 'Skrzecz'}
-    l2 = {'name': 'Boguslaw', 'surname': 'Szewczyk'}
+    # l1 = {'name': 'Iwona', 'surname': 'Skrzecz'}
+    # l2 = {'name': 'Boguslaw', 'surname': 'Szewczyk'}
+    #
+    # inv = list()
+    # inv.append(l1)
+    # inv.append(l2)
 
-    inv = list()
-    inv.append(l1)
-    inv.append(l2)
+    path = 'patent0jco375nsl285fdht/patent/'
 
-    print(find_all_patents(inv))
-    print(find_patent_by_id('WO2004050692A3 '))
+    patents = []
+    tree = None
+    for filename in os.listdir(path):
+        with open(path + filename, "r", encoding="ISO-8859-1") as f:
+            f.readline()
+            f.readline()
+            line = f.readline()
+            i1 = line.find("id")
+            i2 = line.find("\"", i1)
+            i3 = line.find("\"", i2 + 1)
+            patents.append(line[i2 + 1:i3])
+
+    authors = []
+    wrong = []
+    for i, p in enumerate(patents):
+        try:
+            a = find_patent_by_id(p)
+        except AttributeError or ConnectionResetError as e:
+            print(e)
+            wrong.append(p)
+        authors.append(ast.literal_eval(a["inventor_name"]))
+        print("progress:", (i * 100) / patents.__len__(), "%")
+
+    print("wrong number:", wrong.__len__())
+    # while wrong.__len__() != 0:
+    #     try:
+    #         p = wrong.pop(0)
+    #         a = find_patent_by_id(p)
+    #     except AttributeError or ConnectionResetError as e:
+    #         print(e)
+    #         wrong.append(p)
+
+    with open("patent_authors.txt", "w+") as f:
+        for a in authors:
+            f.write("%s\n" % a)
+
+    # print(find_all_patents(inv))
+    # print(find_patent_by_id('WO2004050692A3 '))
+    p1 = find_patent_by_id("PL65928Y1")
+    sleep(1)
+    p2 = find_patent_by_id("PL65221Y1")
+    x = ast.literal_eval(p1["inventor_name"])
