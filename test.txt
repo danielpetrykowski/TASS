@@ -1,0 +1,89 @@
+         Title Interpolated-DFT-based fast and accurate frequency estimation for the control of power
+           URL https://ieeexplore.ieee.org/abstract/document/6785974/
+          Year 2014
+     Citations 80
+      Versions 4
+    Cluster ID 16325499527810285263
+Citations list http://scholar.google.com/scholar?cites=16325499527810285263&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=16325499527810285263&hl=en&as_sdt=0,5
+       Excerpt The energy produced by renewable energy systems must fulfill quality requirements as defined in the respective standards and directives. Improvement of the quality could be achieved through a more accurate estimation of the frequency of the grid's signal that is …
+
+         Title LIDFT method with classic data windows and zero padding in multifrequency signal analysis
+           URL https://www.sciencedirect.com/science/article/pii/S0263224110001971
+          Year 2010
+     Citations 45
+      Versions 2
+    Cluster ID 11635969200582228957
+Citations list http://scholar.google.com/scholar?cites=11635969200582228957&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=11635969200582228957&hl=en&as_sdt=0,5
+       Excerpt This paper presents an advanced discrete Fourier transform linear interpolation method (LIDFT) using classic data windows and a zero padding technique that is well understood from its common use in spectrum analysis with FFT. This advancement of the LIDFT method …
+
+         Title LIDFT-the DFT linear interpolation method
+           URL https://ieeexplore.ieee.org/abstract/document/863917/
+          Year 2000
+     Citations 37
+      Versions 0
+    Cluster ID 15217616845617186842
+Citations list http://scholar.google.com/scholar?cites=15217616845617186842&as_sdt=2005&sciodt=0,5&hl=en
+       Excerpt The method of linear interpolation of the discrete Fourier transform (LIDFT) to estimate parameters of a signal consisting of many sinusoidal oscillations, has been presented in the paper. The LIDFT method combines beneficial properties from known procedures of …
+
+         Title Influence of A/D quantization in an interpolated DFT based system of power control with a small delay
+           URL https://www.degruyter.com/downloadpdf/j/mms.2014.21.issue-3/mms-2014-0036/mms-2014-0036.xml
+          Year 2014
+     Citations 32
+      Versions 12
+    Cluster ID 6513563338145805739
+Citations list http://scholar.google.com/scholar?cites=6513563338145805739&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=6513563338145805739&hl=en&as_sdt=0,5
+       Excerpt Fast and accurate grid signal frequency estimation is a very important issue in the control of renewable energy systems. Important factors that influence the estimation accuracy include the A/D converter parameters in the inverter control system. This paper presents the …
+
+         Title Interpolated-DFT-based fast and accurate amplitude and phase estimation for the control of power
+           URL https://www.degruyter.com/downloadpdf/j/mms.2016.23.issue-1/mms-2016-0013/mms-2016-0013.xml
+          Year 2016
+     Citations 16
+      Versions 12
+    Cluster ID 3013729684275795793
+Citations list http://scholar.google.com/scholar?cites=3013729684275795793&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=3013729684275795793&hl=en&as_sdt=0,5
+       Excerpt Quality of energy produced in renewable energy systems has to be at the high level specified by respective standards and directives. One of the most important factors affecting quality is the estimation accuracy of grid signal parameters. This paper presents a method of …
+
+         Title Coal disintegration using high pressure water jet
+           URL http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1031.3879&rep=rep1&type=pdf
+          Year 2012
+     Citations 10
+      Versions 4
+    Cluster ID 10186939715700562176
+Citations list http://scholar.google.com/scholar?cites=10186939715700562176&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=10186939715700562176&hl=en&as_sdt=0,5
+       Excerpt The paper presents coal comminution utilizing high-pressure water jet. Prototype of hydrojetting apparatus for coal disintegration with this method is presented. Three different types of coal were examined: hard-, brown-, and charcoal. Obtained results point out that …
+
+         Title Minimization of maximum errors in universal approximation of the unit circle by a polygon
+           URL https://www.degruyter.com/downloadpdf/j/mms.2011.xviii.issue-3/v10178-011-0006-x/v10178-011-0006-x.xml
+          Year 2011
+     Citations 9
+      Versions 10
+    Cluster ID 17634738439720832090
+Citations list http://scholar.google.com/scholar?cites=17634738439720832090&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=17634738439720832090&hl=en&as_sdt=0,5
+       Excerpt This paper presents a universal approximation of the unit circle by a polygon that can be used in signal processing algorithms. Optimal choice of the values of three parameters of this approximation allows one to obtain a high accuracy of approximation. The …
+
+         Title Systematic errors of the LIDFT method: Analytical form and verification by a Monte Carlo method
+           URL https://www.degruyter.com/downloadpdf/j/mms.2012.19.issue-4/v10178-012-0059-y/v10178-012-0059-y.xml
+          Year 2012
+     Citations 9
+      Versions 11
+    Cluster ID 14409633843321963588
+Citations list http://scholar.google.com/scholar?cites=14409633843321963588&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=14409633843321963588&hl=en&as_sdt=0,5
+       Excerpt This paper derives analytical formulas for the systematic errors of the linear interpolated DFT (LIDFT) method when used to estimating multifrequency signal parameters and verifies this analysis using Monte-Carlo simulations. The analysis is performed on the version of the …
+
+         Title Continuous and discontinuous linear approximation of the window spectrum by least squares method
+           URL https://www.degruyter.com/downloadpdf/j/mms.2011.xviii.issue-3/v10178-011-0005-y/v10178-011-0005-y.xml
+          Year 2011
+     Citations 6
+      Versions 10
+    Cluster ID 4008922090215154394
+Citations list http://scholar.google.com/scholar?cites=4008922090215154394&as_sdt=2005&sciodt=0,5&hl=en
+ Versions list http://scholar.google.com/scholar?cluster=4008922090215154394&hl=en&as_sdt=0,5
+       Excerpt This paper presents the general solution of the least-squares approximation of the frequency characteristic of the data window by linear functions combined with zero padding technique. The approximation characteristic can be discontinuous or continuous, what depends on the …
+
